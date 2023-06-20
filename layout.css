@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins";
+    padding: 0;
+    margin: 0;
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    background-color: rgb(77,35,130);
+    justify-content: space-evenly;
+}
+.navbar > img {
+    width: 100px;
+    height: 100px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0.6;
+}
+.links > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links > a:hover {
+    background-color: rgb(97, 23, 13);
+}
+.main {
+    max-width: 1200px;
+    background-color: rgb(44, 41, 41);
+    margin: 0 auto;
+    min-height: calc(100vh - 100px);
+    padding: 10px;
+}  
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.head_div {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.head_div > h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main_message {
+    color: rgb(138, 71, 219);
+}
+.reasons_list {
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.img {
+    object-fit: contain;
+    width: 500px;
+    margin-right: 5px;
+}
+
+.gif {
+    object-fit: contain;
+}
+
+.wrapper_div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.table_link {
+    width: 100%;
+}
+.extra-td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.header_2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.andecote {
+    width: 65%;
+    margin: 0 auto;
+    line-height: 2;
+}
+.special_div {
+    background-color: rgb(97, 23, 13);
+    padding: 0;
+    border-radius: 15px;
+    margin-top: 6%;
+    padding: 10px;
+}
+
+.home_table {
+    width: 100%;
+    border: white 1px solid;
+    border-collapse: collapse;
+    margin-bottom: 2%;
+}
+
+.home_table > thead > tr > th {
+    text-align: center;
+    border: white 1px solid;
+    background-color: rgb(111, 42, 196);
+    padding: 10px;
+}
+
+.home_table > tbody > tr > td {
+    text-align: center;
+    border: white 1px solid;
+    padding: 10px;
+}
+td > a {
+    color: white;
+}
+td > a:hover {
+    color: rgb(111, 42, 196);
+}
+
+.impressum_card {
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    border-radius: 30px;
+    margin-top: 15px;
+    display: flex;
+}
+.impressum_img {
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
